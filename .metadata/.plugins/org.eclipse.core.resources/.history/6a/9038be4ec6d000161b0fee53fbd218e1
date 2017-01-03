@@ -1,0 +1,19 @@
+package ch2;
+
+public class Start4 {
+	public static void main(String[] args) {
+		int k = 5;
+		int m;
+		
+		m = square(k);
+	}
+	// k 변수의 값을 가져오지만 
+	private static int square(int k){
+		System.out.println(k);
+		int result;
+		k=25;
+		result = k;
+		return result;
+	}
+
+}
